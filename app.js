@@ -1,9 +1,5 @@
 let listaDeNumerosSorteados = [];
-<<<<<<< HEAD
 let numeroMaximo = 50;
-=======
-let numeroMaximo = 10;
->>>>>>> parent of dbc9e6b (alterado limite para 100)
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -40,11 +36,8 @@ function gerarNumeroAleatorio(){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1','Jogo do Numero Secreto');
-<<<<<<< HEAD
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
-=======
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
->>>>>>> parent of dbc9e6b (alterado limite para 100)
+
 }
 
 function foco(){
