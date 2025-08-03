@@ -36,7 +36,7 @@ function gerarNumeroAleatorio(){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1','Jogo do Numero Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
+    exibirTextoNaTela('p', 'Adivinhe o número entre 1 e 50');
 
 }
 
